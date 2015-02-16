@@ -33,7 +33,7 @@ rails console
 ```
 
 7.
-_Migrating the database in heroku_
+_Migrating the database in heroku_ This is done after pushing the main contents to heroku
 ```
 heroku run rake db:migrate
 ```
