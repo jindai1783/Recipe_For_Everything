@@ -27,3 +27,13 @@ bundle exec rake db:migrate
 rails server
 ```
 
+6.
+```
+rails console
+```
+
+7.
+_Migrating the database in heroku_
+```
+heroku run rake db:migrate
+```
