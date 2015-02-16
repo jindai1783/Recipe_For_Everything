@@ -16,6 +16,11 @@ _Generating model_
 rails generate scaffold User name:string email:string
 ```
 
+_Generating controller_
+```
+rails generate controller StaticPages home help
+```
+
 4.
 _Migrating database_
 ```
@@ -33,7 +38,7 @@ rails console
 ```
 
 7.
-_Migrating the database in heroku_ This is done after pushing the main contents to heroku
+_Migrating the database in heroku_ This is done after pushing the main contents to heroku.
 ```
 heroku run rake db:migrate
 ```
