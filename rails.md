@@ -3,6 +3,7 @@
 ## Inside the console
 
 1.
+_Initialisation_
 ```
 rails new my_app
 ```
@@ -27,7 +28,7 @@ _Generating controller_
 rails generate controller StaticPages home help
 ```
 
-_Beware of the plural_
+_Beware of 's'_
 ```
 rails g controller restaurants
 ```
@@ -73,6 +74,7 @@ rake db:mirate RAILS_ENV=test
 ```
 
 11.
+_Migrating database_
 ```
 rails g migration AddDescriptionToRestaurants description:text
 ```
@@ -95,7 +97,7 @@ belongs_to :restaurant
 ```
 
 2.
-_Test Database Auto-cleaning_
+_Database auto-cleaning_
 ```ruby
 config.use_transactional_fixtures = true
 ```
