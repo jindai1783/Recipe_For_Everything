@@ -101,3 +101,9 @@ _Database auto-cleaning_
 ```ruby
 config.use_transactional_fixtures = true
 ```
+
+3.
+_Multi-column validation_
+```
+validates :user_id, uniqueness: {scope: :restaurant_id}
+```
