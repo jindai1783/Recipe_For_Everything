@@ -10,3 +10,9 @@ _List databases_
 ```
 \l
 ```
+
+3.
+_Table information_
+```
+\d
+```

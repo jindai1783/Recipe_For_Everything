@@ -1,0 +1,5 @@
+# Git
+
+```
+git stash apply
+```

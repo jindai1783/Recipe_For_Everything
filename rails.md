@@ -107,3 +107,8 @@ _Multi-column validation_
 ```
 validates :user_id, uniqueness: {scope: :restaurant_id}
 ```
+
+4.
+```
+rails g model endorsement review:belongs_to
+```
