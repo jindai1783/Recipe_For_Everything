@@ -27,5 +27,8 @@ express
 Sources:
 
 [Installing Node Express on Ubuntu]
+[Tiny Node "Hello World" on Ubuntu]
 
 [Installing Node Express on Ubuntu]: http://iws.io/hosting-a-nodejs-express-application-on-amazon-web-services-ec2/
+
+[Tiny Node "Hello World" on Ubuntu]: https://www.digitalocean.com/community/tutorials/how-to-set-up-a-node-js-application-for-production-on-ubuntu-14-04
