@@ -24,6 +24,12 @@ npm install -g express-generator
 express
 ```
 
+5.
+pm2
+```
+pm2 delete server.js
+```
+
 Sources:
 
 [Installing Node Express on Ubuntu]
